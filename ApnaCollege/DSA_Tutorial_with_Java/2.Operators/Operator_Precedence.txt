@@ -1,0 +1,17 @@
+Postfix increment and decrement
+Prefix increment and decrement
+Unary operators ( + , - , !, ~)
+Multiplicative (* , / , %)
+Additive ( + , -)
+Shift ( << , >> , >>>)
+Relatinal (< , > , <= , >=, instanceof)
+Equality ( ==, !=)
+bitwise AND (&)
+bitwise exclusive OR (^)
+bitwise inclusive OR (|)
+logical AND (&&)
+logical OR (||)
+ternary (?:)
+Assignment (=, +=, -=, *=, /=, %=, &=, ^=, |=, <<=, >>=, >>>=) 
+
+Associativity for left to right or right to left
