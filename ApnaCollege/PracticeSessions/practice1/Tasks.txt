@@ -1,0 +1,17 @@
+1. Print if a number is prime or not
+
+2. print all prime number from 2 to 100
+
+3. print all prime number in a range a to b (1<a<b)
+
+4. print Fibonacci upto n numbers
+	first = 0, sec = 1, third = 0
+	for(int i=0; i<n;i++){
+		third = first+second;
+		print(third);
+		first = sec;
+		sec = third;
+	}
+
+5. Armstrong number
+
