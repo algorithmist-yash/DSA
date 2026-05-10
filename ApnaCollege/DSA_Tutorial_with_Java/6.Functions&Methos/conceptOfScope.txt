@@ -1,0 +1,8 @@
+3 types of Scopes:
+
+1. Mehtod Scope -> any varible declaired here has full access to be used or identified within the method boundary
+    Function within class is known as Method.
+
+2. Block Scope -> Boundary is withing praanthesis '{' and '}' which is called a block of code only;
+
+3. Class Scope -> access modifiers like public, private, protected
