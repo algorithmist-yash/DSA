@@ -1,0 +1,5 @@
+1. binary to decimal
+
+2. decimal to binary
+
+3.
