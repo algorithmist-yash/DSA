@@ -17,7 +17,6 @@ class BankAccount{
     int accountNumber;
 
     // Access Modifieres: Private, Default, Protected, public
-
     private String password;
     void setPassword(String password){
         // password = password;    // The assignment to variable password has no effect.
