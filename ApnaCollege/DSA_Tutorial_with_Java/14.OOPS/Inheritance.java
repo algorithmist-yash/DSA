@@ -3,9 +3,6 @@ public class Inheritance {
         Fish shark = new Fish();
         shark.eat();
 
-        Dog doggy = new Dog();
-        doggy.breathe();
-        doggy.breed();
     }
 
 }
@@ -22,18 +19,8 @@ class Animal{
     }
 }
 
-class Mammals extends Animal{
-    int leg;
-    void breed(){
-        System.out.println("Can breed");
-    }
-}
 
-class Dog extends Mammals{
-    String bark;
-}
-
-//  Derived Class
+//  Derived Class - single level inheritance
 class Fish extends Animal{
     int fins;
 
