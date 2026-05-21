@@ -17,6 +17,8 @@ public class Abstraction {
         System.out.println(c.color);
 
         // Janwar a = new Janwar();     //Cannot instantiate the type Janwar
+        
+        
     }
 }
 
@@ -32,6 +34,9 @@ abstract class Janwar{
 }
 
 class Horse extends Janwar{
+    Horse(){
+        System.out.println("Horse constructor called");
+    }
     void changeColor(){
         color = "dark brown.";
     }
@@ -39,6 +44,7 @@ class Horse extends Janwar{
         System.out.println("Walks on 4 legs.");
     }
 }
+
 
 class Chicken extends Janwar{
     void changeColor(){
