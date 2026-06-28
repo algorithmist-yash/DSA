@@ -7,6 +7,9 @@ public class NthFibonacci {
         //  Things to do and recusion call
         //  int fibonacci = fib(n-1)+ fib(n-2);
         //  return fibonacci;
+        // int fnm1 = fib(int n);
+        // int fnm1 = fib(int n);
+        // int fn = fnm1 + fnm2;
         return fib(n-1)+fib(n-2);
     }
     public static void main(String [] args){

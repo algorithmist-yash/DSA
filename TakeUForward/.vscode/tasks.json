@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run CP",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "g++ \"${file}\" -std=c++17 -O2 -o \"%TEMP%\\cp.exe\" && \"%TEMP%\\cp.exe\" < \"${workspaceFolder}\\input.txt\" > \"${workspaceFolder}\\output.txt\""
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "never"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
